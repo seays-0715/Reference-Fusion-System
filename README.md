@@ -1,50 +1,88 @@
-# Reference Fusion Workflow (RFW)
+# Reference Fusion System
 
-**A structured, identity-preserving reference assignment framework for multimodal image generation.**
+<p align="center">
 
-Instead of mixing multiple reference images into a single prompt,  
-RFW assigns **one clear responsibility** to each reference image  
-(identity · body · pose · outfit · scene · lighting · style).
+AI image production workflow using modular reference fusion.
 
-The result: higher character consistency + controlled, isolated modifications.
-
-> Optimized for **Nano Banana**, but designed to work with any model that supports multi-reference image input  
-> (GPT Image · Flux Kontext · Gemini Image · and future models).
+</p>
 
 ---
 
-## Why this exists
+## 🌐 Languages
 
-Most people dump every reference image into one prompt and hope for the best.
+[🇺🇸 English](README.md) | [🇹🇼 繁體中文](README_zh-TW.md) | [🇨🇳 简体中文](README_zh-CN.md) | [🇯🇵 日本語](README_ja.md)
 
-That usually causes:
+---
 
-- face drift
-- body proportion collapse
-- outfit bleeding into identity
-- scene overriding the character
+## What is RFW?
 
-RFW solves this by enforcing a **strict sequential responsibility chain**:
+**Reference Fusion Workflow (RFW)** is a structured, identity-preserving reference assignment framework for multimodal image generation.
+
+Instead of mixing multiple reference images into a single prompt, RFW assigns **one clear visual responsibility** to each reference image:
+
+> **Identity → Body → Pose → Outfit → Scene → Lighting → Camera → Style**
+
+By isolating each visual attribute, RFW makes character generation more predictable, reproducible, and easier to iterate.
+
+**Benefits**
+
+- More consistent character identity
+- Controlled visual editing
+- Reduced reference conflicts
+- Easier iterative refinement
+
+> Optimized for **Nano Banana**, but designed to work with any image model that supports multiple reference images, including **GPT Image**, **Flux Kontext**, **Gemini Image**, and future models.
+
+---
+
+# Design Philosophy
+
+RFW follows one simple principle:
+
+> **Every reference image should have exactly one primary responsibility.**
+
+When multiple reference images compete for the same visual attributes, image models often produce inconsistent results, including identity drift, body distortion, or unintended style transfer.
+
+By assigning a single responsibility to each reference image, every generation step becomes more predictable, modular, and reproducible.
+
+---
+
+# Why this exists
+
+Many multi-reference workflows assign several visual responsibilities to every reference image.
+
+This often leads to:
+
+- Face drift
+- Body proportion changes
+- Outfit bleeding into facial identity
+- Scene references overriding the character
+- Unpredictable generation results
+
+RFW addresses these issues by enforcing a **sequential responsibility chain**, where each stage modifies only one visual dimension while preserving everything established in earlier stages.
 
 ```
-Identity  →  Face Lock  →  Body  →  Pose  →  Outfit  →  Scene  →  Lighting  →  Camera  →  Style  →  Final
+Identity → Face Lock → Body → Pose → Outfit → Scene → Lighting → Camera → Style → Final
 ```
 
-Earlier stages lock immutable attributes.  
-Later stages only modify isolated visual dimensions.
+Earlier stages establish immutable attributes.
+
+Later stages refine only isolated visual dimensions.
 
 ---
 
-## Quick Start
+# Quick Start
 
-1. Read [docs/architecture.md](docs/architecture.md) — understand the design principles
-2. Follow [docs/workflow.md](docs/workflow.md) — step-by-step execution
-3. Copy prompts from [`prompts/`](prompts/) — one file per step
-4. Check [docs/failure-recovery.md](docs/failure-recovery.md) when something breaks
+1. Read **docs/architecture.md** to understand the design principles.
+2. Follow **docs/workflow.md** to execute the workflow.
+3. Use the prompts in **prompts/** (one file per stage).
+4. If something goes wrong, see **docs/failure-recovery.md**.
 
 ---
 
-## Core Pipeline
+# Core Pipeline
+
+Each stage produces a reusable **Master Reference** for the next stage.
 
 ```mermaid
 flowchart TD
@@ -62,36 +100,40 @@ flowchart TD
 | Stage | Responsibility | Output |
 |-------|----------------|--------|
 | 01 Identity | Facial identity | `Identity_Master_v1` |
-| 02 Face Lock | Correct identity drift | `Face_Locked_Master_v1` |
+| 02 Face Lock | Restore identity consistency | `Face_Locked_Master_v1` |
 | 03 Body | Body proportions | `Body_Master_v1` |
 | 04 Pose | Body position & gesture | `Pose_Master_v1` |
 | 05 Outfit | Clothing & accessories | `Fashion_Master_v1` |
 | 06 Scene | Environment | `Scene_Master_v1` |
-| 07 Lighting | Light & mood | `Lighting_Master_v1` |
+| 07 Lighting | Lighting & mood | `Lighting_Master_v1` |
 | 08 Camera | Lens & composition | `Camera_Master_v1` |
-| 09 Style | Aesthetic lock | `Style_Master_v1` |
-| 10 Final | Realism polish | `Final_Master_v1` |
+| 09 Style | Overall aesthetic | `Style_Master_v1` |
+| 10 Final | Realism enhancement | `Final_Master_v1` |
 
 ---
 
-## Reference Priority Matrix
+# Reference Priority Matrix
 
-| Step | Highest Priority | Must Preserve | Must Ignore |
-|------|------------------|---------------|-------------|
-| Identity | Face | — | Everything else |
-| Face Lock | Face | Body / Pose / Outfit | Background changes |
-| Body | Body proportions | Face + Identity | Face of body ref |
-| Pose | Skeleton / pose | Face + Body proportions | Identity of pose ref |
-| Outfit | Clothing | Face + Body + Pose | Face of outfit ref |
-| Scene | Background | Character entirely | Character of scene ref |
-| Lighting | Light & mood | Everything else | — |
-| Camera | Framing | Everything else | — |
-| Style | Aesthetic | Everything else | — |
-| Final | Quality only | Everything | — |
+The workflow follows one rule:
+
+> **Each reference image owns one visual responsibility.**
+
+| Stage | Primary Responsibility | Preserve | Ignore |
+|------|-------------------------|----------|--------|
+| Identity | Facial identity | — | Everything else |
+| Face Lock | Facial identity | Body, pose, outfit | Background |
+| Body | Body proportions | Face & identity | Face of body reference |
+| Pose | Pose & skeleton | Face & body | Identity of pose reference |
+| Outfit | Clothing | Face, body & pose | Face of outfit reference |
+| Scene | Environment | Entire character | Characters in scene reference |
+| Lighting | Lighting & mood | Everything else | — |
+| Camera | Composition | Everything else | — |
+| Style | Overall aesthetic | Everything else | — |
+| Final | Image quality | Everything | — |
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```
 nano-banana-rfw/
@@ -114,43 +156,55 @@ nano-banana-rfw/
 │   ├── best-practices.md
 │   └── limitations.md
 └── examples/
-    └── (before/after placeholders)
+    ├── identity/
+    ├── body/
+    ├── pose/
+    └── full-pipeline/
 ```
 
 ---
 
-## Best Practices (Summary)
+# Best Practices
 
-- One responsibility per reference image
-- High-resolution references
-- Similar camera angle & focal length between character and reference
-- Neutral lighting on identity/body references when possible
-- Always feed the previous Master as Image 1
+- Assign one responsibility to each reference image.
+- Use high-resolution reference images whenever possible.
+- Keep camera angle and focal length reasonably similar.
+- Use neutral lighting for identity and body references.
+- Always feed the previous **Master** output as Image 1 for the next stage.
 
-See [docs/best-practices.md](docs/best-practices.md) for the full list.
-
----
-
-## Limitations
-
-This workflow **cannot guarantee**:
-
-- Perfect identity preservation across every model
-- Exact clothing reproduction
-- Exact hand / finger pose
-- Exact camera angle matching
-
-Performance heavily depends on the underlying image model and reference quality.
-
-See [docs/limitations.md](docs/limitations.md).
+See **docs/best-practices.md** for additional recommendations.
 
 ---
 
-## Contributing
+# Limitations
 
-Improvements to prompts, recovery strategies, or model-specific tips are welcome.  
-Please keep the core principle: **one responsibility per reference**.
+RFW improves consistency, but cannot guarantee:
+
+- Perfect identity preservation across all image models
+- Pixel-perfect clothing reproduction
+- Exact hand or finger positioning
+- Identical camera framing
+
+Results depend on the capabilities of the underlying image model and the quality of the reference images.
+
+See **docs/limitations.md** for more details.
 
 ---
 
-*Reference Fusion Workflow (RFW) — identity-preserving generation by design*
+# Contributing
+
+Contributions are welcome, including:
+
+- Improved prompts
+- Recovery strategies
+- Model-specific recommendations
+- Workflow enhancements
+- Documentation improvements
+
+Please preserve the core design principle:
+
+> **One reference image. One responsibility.**
+
+---
+
+*Reference Fusion Workflow (RFW) — Consistent characters through structured reference assignment.*
