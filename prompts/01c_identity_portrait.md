@@ -1,26 +1,25 @@
 # Goal
 
 Stage:
-Identity Master
+Identity Master (Portrait)
 
 Objective:
-Create and lock the canonical identity of the main character based on Image 1. This image becomes the master reference for all future generations.
+Create and lock the canonical portrait identity of the main character based on Image 1. This image becomes the master portrait reference for all future portrait-based generations.
 
 ---
 
 # Reference Assignment
 
 Image 1:
-Primary Identity Reference for:
+Primary Portrait Identity Reference for:
 
 - facial identity
 - facial structure
+- facial proportions
 - hairstyle
 - hair color
 - skin tone
 - apparent age
-- body shape
-- full-body proportions
 
 *Note: Image 1 defines ONLY the character identity. Clothing, pose, expression, camera, lighting, and background are overridden by this prompt.*
 
@@ -34,9 +33,9 @@ Absolute identity consistency with Image 1.
 Priority Order:
 
 1. Facial Identity & Structure
-2. Body Proportions & Physique
-3. Hairstyle & Skin Tone
-4. Standardized Capture Setup
+2. Hairstyle & Hair Color
+3. Skin Tone & Apparent Age
+4. Standardized Portrait Capture
 
 ---
 
@@ -46,41 +45,46 @@ Match Image 1 as accurately as possible.
 
 Preserve:
 
-- exact face shape
-- eye shape
+- face shape
+- facial proportions
 - eyebrow shape
+- eye shape
 - nose structure
 - lip shape
 - jawline
-- hairstyle and hair details
+- hairstyle
+- hairline
 - hair color
-- skin tone and natural texture
+- skin tone
+- natural skin texture
 - apparent age
-- body build
-- height
-- body proportions
 
 ---
 
-# Standardized Capture
+# Standardized Portrait Capture
 
 Framing:
-Full-body (head-to-toe, entire body visible, non-cropped)
+Head-and-shoulders portrait
 
 Camera:
 Eye-level
 Centered composition
-Approximately 50mm perspective
+Approximately 85mm portrait perspective
+
+Head Position:
+Facing directly forward
 
 Pose:
-Front-facing
-Neutral standing pose
-Arms relaxed at sides
+Neutral
 
 Expression:
 Neutral
 Relaxed
 Mouth closed
+
+Hair:
+Fully visible
+Naturally arranged
 
 Outfit:
 
@@ -91,16 +95,6 @@ No logos.
 No patterns.
 No text.
 No decorative elements.
-
-Bottom:
-Plain black dolphin shorts.
-Solid black.
-No logos.
-No patterns.
-No text.
-
-Footwear:
-Barefoot
 
 Accessories:
 None
@@ -120,8 +114,10 @@ Do NOT:
 - create a different person
 - blend multiple identities
 - alter facial structure
-- alter body proportions
-- crop or hide any body part
+- alter facial proportions
+- exaggerate facial features
+- crop the top of the head
+- crop the chin
 - add accessories
 - add background objects
 - add decorative elements
@@ -131,13 +127,14 @@ Do NOT:
 
 # Output
 
-Generate a clean, photorealistic standardized character reference.
+Generate a clean, photorealistic standardized portrait reference.
 
 Requirements:
 
+- complete face visible
+- complete hairstyle visible
 - natural skin texture
 - sharp facial details
-- realistic body proportions
 - high identity consistency
 - neutral presentation
 - studio-quality photography
@@ -147,4 +144,4 @@ Requirements:
 # Workflow Metadata
 
 Asset Name:
-F_X (FullBody)
+F_X (Portrait)
