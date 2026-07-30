@@ -10,7 +10,7 @@ AI image production workflow using modular reference fusion.
 
 ## 🌐 Languages
 
-[🇺🇸 English](README.md) | [🇹🇼 繁體中文](README_zh-TW.md) | [🇨🇳 简体中文](README_zh-CN.md) | [🇯🇵 日本語](README_ja.md)
+[🇺🇸 English](README.md) | 
 
 ---
 
