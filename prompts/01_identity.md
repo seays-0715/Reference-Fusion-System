@@ -1,17 +1,19 @@
 # Goal
 
-Stage:
-Identity Master
+Create and lock the canonical full-body identity of the main character based on Image 1.
 
-Objective:
-Create and lock the canonical identity of the main character based on Image 1. This image becomes the master reference for all future generations.
+The generated image becomes the canonical full-body identity reference for all future RFW stages.
 
 ---
 
 # Reference Assignment
 
-Image 1:
-Primary Identity Reference for:
+### Image 1
+
+Role:
+Primary Identity Reference
+
+Use Image 1 as the authoritative source for:
 
 - facial identity
 - facial structure
@@ -20,96 +22,105 @@ Primary Identity Reference for:
 - skin tone
 - apparent age
 - body shape
-- full-body proportions
-
-*Note: Image 1 defines ONLY the character identity. Clothing, pose, expression, camera, lighting, and background are overridden by this prompt.*
+- body proportions
 
 ---
 
-# Priority
+# Stage Responsibility
 
-Highest Priority:
-Absolute identity consistency with Image 1.
+Create only the canonical character identity.
 
-Priority Order:
-
-1. Facial Identity & Structure
-2. Body Proportions & Physique
-3. Hairstyle & Skin Tone
-4. Standardized Capture Setup
+Standardize the presentation while preserving the identity.
 
 ---
 
-# Preserve
+# Task
 
-Match Image 1 as accurately as possible.
+Reconstruct the character from Image 1 while preserving the complete identity.
 
-Preserve:
+Synchronize and preserve:
 
-- exact face shape
+- facial identity
+- face shape
+- facial proportions
 - eye shape
 - eyebrow shape
 - nose structure
 - lip shape
 - jawline
-- hairstyle and hair details
+- hairstyle
+- hair details
 - hair color
-- skin tone and natural texture
+- skin tone
 - apparent age
 - body build
 - height
 - body proportions
 
+Replace the original presentation with the standardized capture setup below.
+
 ---
 
 # Standardized Capture
 
-Framing:
-Full-body (head-to-toe, entire body visible, non-cropped)
+Framing
 
-Camera:
-Eye-level
-Centered composition
-Approximately 50mm perspective
+- Full-body (head-to-toe)
+- Entire body visible
+- No cropping
 
-Pose:
-Front-facing
-Neutral standing pose
-Arms relaxed at sides
+Camera
 
-Expression:
-Neutral
-Relaxed
-Mouth closed
+- Eye-level
+- Centered composition
+- Approximately 50mm perspective
 
-Outfit:
+Pose
 
-Top:
-Plain white fitted sports bra.
-Solid white.
-No logos.
-No patterns.
-No text.
-No decorative elements.
+- Front-facing
+- Neutral standing pose
+- Arms relaxed at sides
 
-Bottom:
-Plain black dolphin shorts.
-Solid black.
-No logos.
-No patterns.
-No text.
+Expression
 
-Footwear:
-Barefoot
+- Neutral
+- Relaxed
+- Mouth closed
 
-Accessories:
-None
+Outfit
 
-Lighting:
-Soft, even studio lighting with minimal shadows
+Top
 
-Background:
-Solid neutral gray studio backdrop
+- Plain white fitted tank top
+- Solid white
+- No logos
+- No patterns
+- No text
+
+Bottom
+
+- Plain black fitted compression shorts
+- Solid black
+- No logos
+- No patterns
+- No text
+
+Footwear
+
+- Barefoot
+
+Accessories
+
+- None
+
+Lighting
+
+- Soft, even studio lighting
+- Minimal shadows
+
+Background
+
+- Solid neutral gray studio backdrop
 
 ---
 
@@ -119,9 +130,9 @@ Do NOT:
 
 - create a different person
 - blend multiple identities
-- alter facial structure
+- alter facial anatomy
 - alter body proportions
-- crop or hide any body part
+- crop any part of the body
 - add accessories
 - add background objects
 - add decorative elements
@@ -131,20 +142,19 @@ Do NOT:
 
 # Output
 
-Generate a clean, photorealistic standardized character reference.
-
-Requirements:
-
-- natural skin texture
-- sharp facial details
-- realistic body proportions
-- high identity consistency
-- neutral presentation
-- studio-quality photography
-
----
-
-# Workflow Metadata
-
 Asset Name:
-F_X (FullBody)
+
+Master_Identity_FullBody_v1
+
+Purpose:
+
+Canonical full-body identity reference for all subsequent RFW stages.
+
+Generate a high-resolution photorealistic reference image with:
+
+- maximum identity consistency
+- standardized presentation
+- natural skin texture
+- accurate body proportions
+- studio-quality lighting
+- neutral appearance

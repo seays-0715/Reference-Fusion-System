@@ -1,70 +1,122 @@
-# STEP 03 — Body Fusion
-
-**Purpose**  
-Apply body proportions while keeping identity locked.
-
-**Input / Output**
-
-```
-[Current Character Identity]  +  [Body Reference]
-                  ↓
-            Body_Master_v1
-```
-
-| Image | Role |
-|-------|------|
-| Image 1 | Current Character Identity |
-| Image 2 | Body Proportion Reference |
-
-**Prompt**
-
-```
 # Goal
 
-Apply the body proportions from Image 2 to the character in Image 1.
+Synchronize the canonical body characteristics from the assigned body reference while preserving the established character identity and facial appearance.
 
-The face and identity must remain from Image 1.
+The output should become the reusable Canonical Body Asset for all subsequent RFW stages.
+
+---
 
 # Reference Assignment
 
 Image 1:
-Current Character Identity Reference.
+
+Role:
+Current Character
 
 Image 2:
-Body Proportion Reference.
 
-Use Image 2 only for:
-- body silhouette
-- height impression
-- body proportions
-- shoulder width
-- waist proportion
-- leg length
-- overall physical balance
+Role:
+Body Reference
+
+---
+
+# Stage Responsibility
+
+Modify ONLY the character's canonical body characteristics, including:
+
+- Height
+- Overall body proportions
+- Body frame
+- Physique
+- Body shape
+- Body silhouette
+- Shoulder width
+- Torso proportions
+- Arm proportions
+- Leg proportions
+- Bust size and shape
+- Waist shape
+- Hip shape
+- Muscle definition
+- Body fat distribution
+- Limb thickness
+
+Do NOT intentionally modify any other visual attributes.
+
+---
+
+# Task
+
+Synchronize the canonical body characteristics from Image 2 onto the character in Image 1.
+
+The generated body should faithfully reproduce the overall physique, proportions, silhouette, and anatomical characteristics of the body reference while preserving the existing character established in previous stages.
+
+This stage defines only the character's canonical body and should not introduce pose-specific or scene-specific changes.
+
+---
 
 # Preserve
 
-Keep exactly:
-- face
-- hairstyle
-- identity
-- skin tone
+Preserve all previously established character attributes from Image 1, including:
+
+- Character identity
+- Facial identity
+- Facial structure
+- Eyes
+- Nose
+- Mouth
+- Eyebrows
+- Skin tone
+- Hair
+- Hairstyle
+- Hair color
+- Facial expression
+- Age appearance
+- Ethnicity
+
+Do not modify:
+
+- Clothing
+- Footwear
+- Accessories
+- Jewelry
+- Pose
+- Gesture
+- Hand placement
+- Camera angle
+- Perspective
+- Composition
+- Background
+- Environment
+- Props
+- Lighting
+- Rendering style
+- Image quality
+
+---
 
 # Restrictions
 
-Do not copy Image 2 face.
-Do not copy Image 2 identity.
-Do not blend faces.
-Do not change facial structure.
+- Do not copy clothing from the body reference.
+- Do not copy pose from the body reference.
+- Do not copy camera composition from the body reference.
+- Do not copy background or environment from the body reference.
+- Do not alter facial identity to resemble the body reference.
+- Do not exaggerate or idealize body proportions.
+- Preserve natural anatomical consistency.
+- Preserve realistic body scale relative to the established character.
+- Generate only the canonical body characteristics independent of wardrobe, pose, scene, or rendering style.
 
-Maintain realistic anatomy.
-Maintain harmonious body-face ratio.
+---
 
 # Output
 
-Create one natural realistic person.
-Photorealistic full body image.
+Asset Name:
 
-Save:
-Body_Master_v1
-```
+03 Canonical Body
+
+Purpose:
+
+Defines the character's reusable canonical body asset for subsequent RFW stages.
+
+The output should establish a stable body reference that remains consistent regardless of wardrobe, pose, environment, camera, lighting, or rendering style.

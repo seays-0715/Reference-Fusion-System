@@ -1,122 +1,118 @@
 # Goal
 
-Stage:
-Identity Master (Fiction)
+Create and lock the canonical full-body identity of the main character by faithfully translating the fictional character into a realistic human appearance.
 
-Objective:
-Create and lock the canonical real-world identity of one or more fictional character references. This image becomes the master reference for all future generations.
+The generated image becomes the canonical full-body identity reference for all future RFW stages.
 
 ---
 
 # Reference Assignment
 
-Image 1:
-Primary Fictional Character Reference.
+### Image 1
 
-Image 2+:
-Supporting Fictional Character References.
+Role:
+Fiction Character Reference
 
-All reference images contribute to the final identity.
+Use Image 1 as the authoritative reference for the character's identity.
 
-No single reference should dominate unless explicitly specified.
-
-*Note: Reference images define ONLY the character identity. Clothing, pose, expression, camera, lighting, and background are overridden by this prompt.*
+Faithfully preserve the character's recognizable identity while translating it into a believable real human appearance.
 
 ---
 
-# Priority
+# Stage Responsibility
 
-Highest Priority:
-Faithfully translate the fictional character into a believable real human while preserving the character's recognizable identity.
+Create only the canonical character identity.
 
-Priority Order:
-
-1. Character Identity
-2. Facial Identity & Structure
-3. Body Proportions & Physique
-4. Hairstyle & Skin Tone
-5. Standardized Capture Setup
+Realistically reinterpret the fictional character while preserving the original identity.
 
 ---
 
-# Identity Translation
+# Task
 
-Interpret the fictional character as if they existed in the real world.
+Convert the fictional character in Image 1 into a photorealistic human.
 
-The final identity must:
-
-- preserve the recognizable character identity
-- appear as one believable real person
-- retain the defining visual characteristics
-- avoid appearing as cosplay
-- avoid appearing as a live-action costume recreation
-- avoid appearing as an illustration or CGI render
-
-Naturally translate:
+Preserve the character's recognizable identity, including:
 
 - facial identity
 - facial structure
 - hairstyle
 - hair color
-- skin tone
+- eye shape
+- eye color
+- eyebrow shape
+- nose structure
+- lip shape
+- skin tone (where applicable)
 - apparent age
 - body build
 - body proportions
 
-Stylized or exaggerated features should be interpreted into realistic human anatomy while preserving the character's overall visual identity.
+Interpret stylized or exaggerated features into realistic human anatomy while maintaining the same recognizable character.
 
-When multiple references differ, create the most harmonious and biologically plausible interpretation rather than mechanically averaging individual features.
+Replace the original presentation with the standardized capture setup below.
 
 ---
 
 # Standardized Capture
 
-Framing:
-Full-body (head-to-toe, entire body visible, non-cropped)
+Framing
 
-Camera:
-Eye-level
-Centered composition
-Approximately 50mm perspective
+- Full-body (head-to-toe)
+- Entire body visible
+- No cropping
 
-Pose:
-Front-facing
-Neutral standing pose
-Arms relaxed at sides
+Camera
 
-Expression:
-Neutral
-Relaxed
-Mouth closed
+- Eye-level
+- Centered composition
+- Approximately 50mm perspective
 
-Outfit:
+Pose
 
-Top:
-Plain white fitted sports bra.
-Solid white.
-No logos.
-No patterns.
-No text.
-No decorative elements.
+- Front-facing
+- Neutral standing pose
+- Arms relaxed at sides
 
-Bottom:
-Plain black dolphin shorts.
-Solid black.
-No logos.
-No patterns.
-No text.
+Expression
 
-Footwear:
-Barefoot
+- Neutral
+- Relaxed
+- Mouth closed
 
-Accessories:
-None
+Outfit
 
-Lighting:
-Soft, even studio lighting with minimal shadows
+Top
 
-Background:
-Solid neutral gray studio backdrop
+- Plain white fitted tank top
+- Solid white
+- No logos
+- No patterns
+- No text
+
+Bottom
+
+- Plain black fitted compression shorts
+- Solid black
+- No logos
+- No patterns
+- No text
+
+Footwear
+
+- Barefoot
+
+Accessories
+
+- None
+
+Lighting
+
+- Soft, even studio lighting
+- Minimal shadows
+
+Background
+
+- Solid neutral gray studio backdrop
 
 ---
 
@@ -124,13 +120,12 @@ Solid neutral gray studio backdrop
 
 Do NOT:
 
+- create a different character
 - redesign the character
-- create a different identity
-- preserve unrealistic anatomy
-- preserve exaggerated anime proportions
-- create a cosplay appearance
-- create a costume recreation
-- crop or hide any body part
+- alter the recognizable identity
+- exaggerate stylized anatomy
+- generate unrealistic human anatomy
+- crop any part of the body
 - add accessories
 - add background objects
 - add decorative elements
@@ -140,21 +135,21 @@ Do NOT:
 
 # Output
 
-Generate a clean, photorealistic standardized character reference.
-
-Requirements:
-
-- recognizable fictional identity
-- realistic human anatomy
-- natural facial structure
-- realistic body proportions
-- high identity consistency
-- neutral presentation
-- studio-quality photography
-
----
-
-# Workflow Metadata
-
 Asset Name:
-F_X_Fiction (FullBody)
+
+Master_Identity_FullBody_v1
+
+Purpose:
+
+Canonical full-body identity reference for all subsequent RFW stages.
+
+Generate a high-resolution photorealistic reference image with:
+
+- faithful character realization
+- maximum identity consistency
+- realistic human anatomy
+- natural skin texture
+- accurate body proportions
+- standardized presentation
+- studio-quality lighting
+- neutral appearance

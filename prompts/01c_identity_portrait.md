@@ -1,54 +1,41 @@
 # Goal
 
-Stage:
-Identity Master (Portrait)
+Create and lock the canonical portrait identity based on the canonical full-body identity.
 
-Objective:
-Create and lock the canonical portrait identity of the main character based on Image 1. This image becomes the master portrait reference for all future portrait-based generations.
+The generated image becomes the canonical portrait reference for all future facial synchronization stages.
 
 ---
 
 # Reference Assignment
 
-Image 1:
-Primary Portrait Identity Reference for:
+### Image 1
+
+Role:
+Master_Identity_FullBody_v1
+
+Use Image 1 as the authoritative source for the complete character identity.
+
+---
+
+# Stage Responsibility
+
+Create only the canonical portrait reference.
+
+Standardize the portrait presentation while preserving the complete facial identity.
+
+---
+
+# Task
+
+Generate a standardized portrait reference from Image 1.
+
+Preserve the complete facial identity, including:
 
 - facial identity
-- facial structure
-- facial proportions
-- hairstyle
-- hair color
-- skin tone
-- apparent age
-
-*Note: Image 1 defines ONLY the character identity. Clothing, pose, expression, camera, lighting, and background are overridden by this prompt.*
-
----
-
-# Priority
-
-Highest Priority:
-Absolute identity consistency with Image 1.
-
-Priority Order:
-
-1. Facial Identity & Structure
-2. Hairstyle & Hair Color
-3. Skin Tone & Apparent Age
-4. Standardized Portrait Capture
-
----
-
-# Preserve
-
-Match Image 1 as accurately as possible.
-
-Preserve:
-
 - face shape
 - facial proportions
-- eyebrow shape
 - eye shape
+- eyebrow shape
 - nose structure
 - lip shape
 - jawline
@@ -56,54 +43,62 @@ Preserve:
 - hairline
 - hair color
 - skin tone
-- natural skin texture
 - apparent age
+
+Replace the original presentation with the standardized portrait setup below.
 
 ---
 
-# Standardized Portrait Capture
+# Standardized Portrait
 
-Framing:
-Head-and-shoulders portrait
+Framing
 
-Camera:
-Eye-level
-Centered composition
-Approximately 85mm portrait perspective
+- Head and upper shoulders
+- Entire head visible
+- No cropping of the hair
 
-Head Position:
-Facing directly forward
+Camera
 
-Pose:
-Neutral
+- Eye-level
+- Centered composition
+- Approximately 85mm portrait perspective
 
-Expression:
-Neutral
-Relaxed
-Mouth closed
+Head Position
 
-Hair:
-Fully visible
-Naturally arranged
+- Facing directly forward
+- Head level
+- No tilt
+- No rotation
 
-Outfit:
+Expression
 
-Top:
-Plain white fitted sports bra.
-Solid white.
-No logos.
-No patterns.
-No text.
-No decorative elements.
+- Neutral
+- Relaxed
+- Mouth closed
 
-Accessories:
-None
+Eyes
 
-Lighting:
-Soft, even studio lighting with minimal shadows
+- Looking directly at the camera
+- Fully open
 
-Background:
-Solid neutral gray studio backdrop
+Hair
+
+- Naturally arranged
+- Entire hairstyle visible
+- Hair must not cover the eyes or facial features
+
+Accessories
+
+- None
+
+Lighting
+
+- Soft, even studio lighting
+- Minimal shadows
+
+Background
+
+- Solid neutral gray studio backdrop
 
 ---
 
@@ -111,15 +106,14 @@ Solid neutral gray studio backdrop
 
 Do NOT:
 
-- create a different person
-- blend multiple identities
-- alter facial structure
-- alter facial proportions
+- alter facial identity
+- alter facial anatomy
+- alter hairstyle
+- modify apparent age
+- apply beauty filters
 - exaggerate facial features
-- crop the top of the head
-- crop the chin
+- crop the head or hair
 - add accessories
-- add background objects
 - add decorative elements
 - apply stylized artistic effects
 
@@ -127,21 +121,19 @@ Do NOT:
 
 # Output
 
-Generate a clean, photorealistic standardized portrait reference.
+Asset Name:
 
-Requirements:
+Master_Identity_Portrait_v1
 
-- complete face visible
-- complete hairstyle visible
+Purpose:
+
+Canonical portrait reference for all subsequent facial synchronization stages.
+
+Generate a high-resolution photorealistic portrait with:
+
+- maximum facial identity consistency
+- standardized portrait presentation
 - natural skin texture
 - sharp facial details
-- high identity consistency
-- neutral presentation
-- studio-quality photography
-
----
-
-# Workflow Metadata
-
-Asset Name:
-F_X (Portrait)
+- neutral expression
+- studio-quality lighting

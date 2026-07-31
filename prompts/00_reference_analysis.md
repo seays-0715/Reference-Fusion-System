@@ -1,8 +1,8 @@
 # Goal
 
-Analyze the uploaded reference image and convert it into a standardized RFW Reference Analysis for image reconstruction.
+Analyze the uploaded reference image and convert it into a standardized RFW Reference Analysis.
 
-The purpose is to extract reusable visual attributes for prompt generation.
+The purpose is to extract reusable visual attributes for prompt generation and image reconstruction.
 
 Describe only observable visual characteristics.
 
@@ -19,6 +19,7 @@ Do NOT infer hidden information or invent missing details.
   Unknown
 - Do not guess.
 - Remain objective and descriptive.
+- Describe observable appearance rather than semantic interpretation.
 - Use concise, generation-friendly language.
 - Prefer concrete physical descriptions over abstract interpretations.
 - Do not include quality-enhancing prompt terms (e.g. masterpiece, best quality, 8k, ultra detailed).
@@ -68,11 +69,11 @@ Visible Body Proportions:
 
 Shoulders:
 
-Bust:
+Bust / Chest:
 
 Waist:
 
-Hips:
+Hip Width:
 
 Legs:
 
@@ -95,6 +96,9 @@ Accessories:
 Dominant Colors:
 
 Material:
+
+Fit:
+(fitted / loose / oversized / compression / tailored)
 
 Patterns / Logos:
 
@@ -151,6 +155,9 @@ Composition:
 
 Cropping:
 
+Field of View:
+(close portrait / upper body / half body / full body)
+
 Focus:
 (e.g. sharp subject with soft background)
 
@@ -175,6 +182,9 @@ Environment:
 
 Background Description:
 
+Background Complexity:
+(Simple / Moderate / Busy)
+
 ---
 
 # Style
@@ -186,11 +196,14 @@ Rendering Style:
 
 Realism Level:
 
+Color Palette:
+(Warm / Cool / Neutral / Vibrant / Muted)
+
 ---
 
 # Distinctive Features
 
-List the 3–5 most visually distinctive characteristics that immediately define this subject.
+List the 3–5 most visually distinctive characteristics that immediately define the subject.
 
 Use only observable characteristics.
 
@@ -206,11 +219,15 @@ Describe only observable visual characteristics.
 
 ---
 
-# RFW Prompt Components
+# Reusable Prompt Components
 
-Each section should contain concise prompt-ready phrases.
+Create reusable prompt-ready building blocks.
 
-Avoid complete sentences.
+Use concise descriptive phrases rather than complete sentences.
+
+Each section should be reusable independently.
+
+Prioritize visually distinctive and reproducible characteristics.
 
 Identity:
 
@@ -282,53 +299,3 @@ Examples:
 - hat
 
 Do NOT include quality-related negative prompts.
-
----
-
-# Reference Suitability
-
-Evaluate how suitable this image is as a reference for each category.
-
-Identity:
-(Excellent / Good / Partial / Poor)
-
-Body:
-(Excellent / Good / Partial / Poor)
-
-Outfit:
-(Excellent / Good / Partial / Poor)
-
-Pose:
-(Excellent / Good / Partial / Poor)
-
-Expression:
-(Excellent / Good / Partial / Poor)
-
-Camera:
-(Excellent / Good / Partial / Poor)
-
-Lighting:
-(Excellent / Good / Partial / Poor)
-
-Background:
-(Excellent / Good / Partial / Poor)
-
----
-
-# Overall Recommendation
-
-Recommend the best role(s) for this image within the RFW workflow.
-
-Examples:
-
-- Identity Master
-- Identity Support
-- Body Reference
-- Outfit Reference
-- Pose Reference
-- Expression Reference
-- Camera Reference
-- Lighting Reference
-- Background Reference
-
-Briefly explain the recommendation based only on observable characteristics.
