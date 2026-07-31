@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the body's soft-tissue shape from the assigned body reference while preserving the established character identity, facial appearance, and skeletal proportions.

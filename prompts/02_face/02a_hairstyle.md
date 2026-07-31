@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Modify the character's hairstyle while preserving the canonical identity.

@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the facial identity of the current character with the canonical Portrait Master.

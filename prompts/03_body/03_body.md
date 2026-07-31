@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the canonical body characteristics from the assigned body reference while preserving the established character identity and facial appearance.

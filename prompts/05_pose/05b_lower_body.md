@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's lower body pose from the assigned pose reference while preserving the established character identity, facial appearance, canonical body, wardrobe, upper body pose, environment, camera, lighting, and rendering style.

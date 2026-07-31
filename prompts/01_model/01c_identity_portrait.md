@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Create and lock the canonical portrait identity based on the canonical full-body identity.

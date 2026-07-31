@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's footwear from the assigned footwear reference while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, clothing, and all non-footwear wearable assets.

@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's complete wardrobe from the assigned wardrobe reference while preserving the established character identity, facial appearance, canonical body, body shape, and skeletal framework.

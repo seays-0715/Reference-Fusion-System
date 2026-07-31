@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Refine one or more explicitly specified body features while preserving the established character identity, facial appearance, canonical body, body shape, and skeletal framework.

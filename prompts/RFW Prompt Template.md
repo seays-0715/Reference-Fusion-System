@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Describe the intended outcome of this stage.

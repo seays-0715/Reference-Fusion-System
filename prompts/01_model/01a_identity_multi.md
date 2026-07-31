@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Create and lock the canonical full-body identity of the main character by naturally synthesizing multiple identity references.

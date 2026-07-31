@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's gesture from the assigned gesture reference while preserving the established character identity, facial appearance, canonical body, wardrobe, overall pose, environment, camera, lighting, and rendering style.

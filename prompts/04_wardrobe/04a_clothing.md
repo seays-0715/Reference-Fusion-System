@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's clothing from the assigned clothing reference while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, and all non-clothing wearable assets.

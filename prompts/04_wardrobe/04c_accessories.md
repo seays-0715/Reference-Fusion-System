@@ -1,3 +1,7 @@
+**Prompt**
+
+```
+
 # Goal
 
 Synchronize the character's wearable accessories from the assigned accessory reference while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, clothing, and footwear.
