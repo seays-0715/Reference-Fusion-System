@@ -4,7 +4,9 @@
 
 # Goal
 
-Edit the Base Image by transferring ONLY the character's expressive gestures from the Reference Image.
+Character asset design sheet for a story-driven graphic novel.
+
+Edit the Base Image by transferring ONLY the specified visual attribute from the Reference Image.
 
 ---
 

@@ -4,31 +4,45 @@
 
 # Goal
 
-Edit Image 1 by changing ONLY the specified visual attribute.
+Character asset design sheet for a story-driven graphic novel.
+
+Edit the Base Image by transferring ONLY the specified visual attribute from the Reference Image.
 
 ---
 
-# Image Assignment
+# Image Roles
+
+## Base Image
 
 Image 1
 
-Current Character
+The image to edit.
+
+Preserve this image as the foundation of the final result.
+
+---
+
+## Reference Image
 
 Image 2
 
-Footwear Reference
+Use ONLY as the reference for the specified visual attribute.
+
+Do not copy unrelated visual information from this image.
 
 ---
 
 # Primary Instruction
 
-Modify ONLY:
+Transfer ONLY:
 
 * Footwear
 
 
 
-Replicate the footwear from Image 2 as accurately as possible, including shoes, boots, sandals, heels, sneakers, slippers, socks, stockings, pantyhose, leg warmers, and ankle accessories.
+Replicate the footwear from the Reference Image as accurately as possible, including shoes, boots, sandals, heels, sneakers, slippers, socks, stockings, pantyhose, leg warmers, and ankle accessories.
+
+Match the reference faithfully.
 
 Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
@@ -36,25 +50,25 @@ Do not reinterpret, redesign, stylize, or approximate the reference unless expli
 
 # Secondary Instruction
 
-Preserve all unrelated visual attributes from Image 1.
+Preserve all unrelated visual attributes from the Base Image.
 
 ---
 
 # Stage-specific Restrictions
 
-* Do not copy facial identity, body proportions, clothing, accessories, pose, environment, camera angle, lighting, or art style from Image 2.
+* Do not copy facial identity, body proportions, clothing, accessories, pose, environment, camera angle, lighting, or art style from the Reference Image.
 
 
-* Preserve character identity, facial appearance, hair, expression, and canonical body/anatomy from Image 1.
+* Preserve character identity, facial appearance, hair, expression, and canonical body/anatomy from the Base Image.
 
 
-* Preserve non-footwear wardrobe assets (clothing, gloves, hats, hair accessories, eyewear, jewelry, belts, bags, scarves, etc.) from Image 1.
+* Preserve non-footwear wardrobe assets (clothing, gloves, hats, hair accessories, eyewear, jewelry, belts, bags, scarves, etc.) from the Base Image.
 
 
 * Preserve existing pose, gesture, environment, camera angle, and lighting.
 
 
-* Adapt the footwear naturally to fit the character's feet and interact properly with existing clothing/body in Image 1, maintaining realistic fit and natural layering.
+* Adapt the footwear naturally to fit the character's feet and interact properly with existing clothing/body in the Base Image, maintaining realistic fit and natural layering.
 
 
 
@@ -62,7 +76,7 @@ Preserve all unrelated visual attributes from Image 1.
 
 # Output Constraint
 
-The output should look identical to Image 1, with only the specified attribute(s) changed.
+The output should appear identical to the Base Image, with only the specified attribute(s) transferred from the Reference Image.
 
 Apply only the minimum necessary modifications required to complete the requested edit.
 

@@ -4,50 +4,102 @@
 
 # Goal
 
-Edit Image 1 by changing ONLY the character's wearable accessories.
+Character asset design sheet for a story-driven graphic novel.
+
+Edit the Base Image by transferring ONLY the specified visual attribute from the Reference Image.
 
 ---
 
-# Image Assignment
+# Image Roles
+
+## Base Image
 
 Image 1
 
-Current Character
+The image to edit.
+
+Preserve this image as the foundation of the final result.
+
+---
+
+## Reference Image
 
 Image 2
 
-Accessory Reference
+Use ONLY as the reference for the specified visual attribute.
+
+Do not copy unrelated visual information from this image.
 
 ---
 
 # Primary Instruction
 
-Modify ONLY:
+Transfer ONLY:
 
-- Wearable Accessories
+* Wearable Accessories
 
-Replicate the wearable accessories from Image 2 as accurately as possible.
+
+
+Replicate the wearable accessories from the Reference Image as accurately as possible.
 
 This includes:
 
-- Eyeglasses
-- Sunglasses
-- Hats
-- Headbands
-- Hair clips
-- Hair ribbons
-- Hair ornaments
-- Earrings
-- Necklaces
-- Chokers
-- Bracelets
-- Watches
-- Rings
-- Brooches
-- Belts
-- Gloves
-- Scarves
-- Other permanently worn or attached accessories
+* Eyeglasses
+
+
+* Sunglasses
+
+
+* Hats
+
+
+* Headbands
+
+
+* Hair clips
+
+
+* Hair ribbons
+
+
+* Hair ornaments
+
+
+* Earrings
+
+
+* Necklaces
+
+
+* Chokers
+
+
+* Bracelets
+
+
+* Watches
+
+
+* Rings
+
+
+* Brooches
+
+
+* Belts
+
+
+* Gloves
+
+
+* Scarves
+
+
+* Other permanently worn or attached accessories
+
+
+
+Match the reference faithfully.
 
 Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
@@ -55,23 +107,33 @@ Do not reinterpret, redesign, stylize, or approximate the reference unless expli
 
 # Secondary Instruction
 
-Preserve all unrelated visual attributes from Image 1.
+Preserve all unrelated visual attributes from the Base Image.
 
 ---
 
 # Stage-specific Restrictions
 
-- Do not copy facial identity, body proportions, clothing, footwear, pose, gesture, environment, camera angle, lighting, or rendering style from Image 2.
-- Preserve character identity, facial appearance, hair, expression, and canonical body from Image 1.
-- Preserve the existing pose, gesture, environment, camera angle, lighting, and rendering style.
-- Do not copy handheld props, carried objects, tools, weapons, bags, backpacks, furniture, vehicles, companion objects, or any other non-wearable items from Image 2.
-- Adapt the wearable accessories naturally to the character's body, hair, and wardrobe while maintaining realistic attachment, placement, layering, and interaction.
+* Do not copy facial identity, body proportions, clothing, footwear, pose, gesture, environment, camera angle, lighting, or rendering style from the Reference Image.
+
+
+* Preserve character identity, facial appearance, hair, expression, and canonical body from the Base Image.
+
+
+* Preserve the existing pose, gesture, environment, camera angle, lighting, and rendering style.
+
+
+* Do not copy handheld props, carried objects, tools, weapons, bags, backpacks, furniture, vehicles, companion objects, or any other non-wearable items from the Reference Image.
+
+
+* Adapt the wearable accessories naturally to the character's body, hair, and wardrobe while maintaining realistic attachment, placement, layering, and interaction.
+
+
 
 ---
 
 # Output Constraint
 
-The output should look identical to Image 1, with only the wearable accessories changed.
+The output should appear identical to the Base Image, with only the specified attribute(s) transferred from the Reference Image.
 
 Apply only the minimum necessary modifications required to complete the requested edit.
 

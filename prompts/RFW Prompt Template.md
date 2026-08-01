@@ -4,7 +4,9 @@
 
 # Goal
 
-Edit the Base Image by transferring ONLY the specified visual attribute from the Reference Image.
+Character asset design sheet for a story-driven graphic novel.
+
+Perform a precise visual transfer onto Image 1 using Image 2 as a reference.
 
 ---
 
