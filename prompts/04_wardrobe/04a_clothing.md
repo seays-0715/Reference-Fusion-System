@@ -4,153 +4,66 @@
 
 # Goal
 
-Synchronize the character's clothing from the assigned clothing reference while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, and all non-clothing wearable assets.
-
-The output should refine the existing Character Wardrobe by updating clothing only.
+Edit Image 1 by changing ONLY the specified visual attribute.
 
 ---
 
-# Reference Assignment
+# Image Assignment
 
-Image 1:
+Image 1
 
-Role:
 Current Character
 
-Image 2:
+Image 2
 
-Role:
 Clothing Reference
 
 ---
 
-# Stage Responsibility
+# Primary Instruction
 
-Modify ONLY the character's clothing, including:
+Modify ONLY:
 
-- Tops
-- Bottoms
-- Dresses
-- Skirts
-- Outerwear
-- Jackets
-- Coats
-- Uniforms
-- Bodysuits
-- Swimwear
-- Sleepwear
-- Underwear
-- Sleeves
-- Collars
-- Clothing layers
+* Clothing
 
-Do NOT intentionally modify footwear, accessories, body characteristics, or any other visual attributes.
+
+
+Replicate the clothing from Image 2 as accurately as possible, including tops, bottoms, dresses, skirts, outerwear, jackets, coats, uniforms, bodysuits, swimwear, sleepwear, underwear, sleeves, collars, and clothing layers.
+
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Task
+# Secondary Instruction
 
-Transfer the clothing from Image 2 onto the character in Image 1.
-
-Synchronize all garments while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, footwear, and accessories.
-
-The transferred clothing should naturally conform to the established body without altering anatomy or body proportions.
-
-This stage defines only the character's clothing and must not modify footwear, accessories, pose, scene, camera, lighting, or rendering style.
+Preserve all unrelated visual attributes from Image 1.
 
 ---
 
-# Preserve
+# Stage-specific Restrictions
 
-Preserve all previously established character attributes from Image 1, including:
+* Do not copy facial identity, body proportions, footwear, accessories, pose, environment, camera angle, lighting, or art style from Image 2.
 
-- Character identity
-- Facial identity
-- Facial structure
-- Eyes
-- Nose
-- Mouth
-- Eyebrows
-- Skin tone
-- Hair
-- Hairstyle
-- Hair color
-- Facial expression
-- Age appearance
-- Ethnicity
 
-Preserve the established body, including:
+* Preserve character identity, facial appearance, hair, expression, and canonical body/anatomy from Image 1.
 
-- Canonical body
-- Skeletal framework
-- Head-to-body ratio
-- Height
-- Overall body proportions
-- Physique
-- Body build
-- Body silhouette
-- Body fat distribution
-- Muscle definition
-- Bust
-- Waist
-- Hip
-- Limb proportions
-- Localized body refinements
 
-Preserve existing wearable assets, including:
+* Preserve non-clothing wearable assets (footwear, socks, stockings, gloves, hats, eyewear, jewelry, belts, bags, etc.) from Image 1.
 
-- Footwear
-- Socks
-- Stockings
-- Pantyhose
-- Gloves
-- Hats
-- Hair accessories
-- Eyewear
-- Jewelry
-- Belts
-- Bags
-- Scarves
 
-Do not modify:
+* Preserve existing pose, gesture, environment, camera angle, and lighting.
 
-- Pose
-- Gesture
-- Camera angle
-- Perspective
-- Composition
-- Background
-- Environment
-- Props
-- Lighting
-- Rendering style
-- Image quality
+
+* Adapt the clothing naturally to fit the character's body in Image 1, maintaining realistic garment fit, natural fabric behavior, and proper layering.
+
+
 
 ---
 
-# Restrictions
+# Output Constraint
 
-- Transfer only clothing from the clothing reference.
-- Do not modify any body characteristics to fit the clothing.
-- Adapt the clothing naturally to the established body.
-- Do not copy footwear from the reference.
-- Do not copy accessories from the reference.
-- Do not copy pose from the reference.
-- Do not copy camera composition from the reference.
-- Do not copy background or environment from the reference.
-- Do not alter facial identity.
-- Preserve realistic garment fit, natural fabric behavior, and proper clothing layering.
+The output should look identical to Image 1, with only the specified attribute(s) changed.
 
----
+Apply only the minimum necessary modifications required to complete the requested edit.
 
-# Output
-
-Asset Name:
-
-04a Clothing
-
-Purpose:
-
-Defines the character's reusable clothing asset by synchronizing garments while preserving the established Character Canon and other wearable assets.
-
-This asset contains clothing only and remains independent of footwear, accessories, pose, environment, camera, lighting, and rendering style.
+Generate a natural, visually coherent, and anatomically consistent result.

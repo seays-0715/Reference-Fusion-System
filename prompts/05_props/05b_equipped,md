@@ -1,0 +1,91 @@
+**Prompt**
+
+```
+
+# Goal
+
+Edit the Base Image by transferring ONLY the character's equipped props from the Reference Image.
+
+---
+
+# Image Roles
+
+## Base Image
+
+Image 1
+
+The image to edit.
+
+Preserve this image as the foundation of the final result.
+
+---
+
+## Reference Image
+
+Image 2
+
+Use ONLY as the reference for the character's equipped props.
+
+Do not copy unrelated visual information from this image.
+
+---
+
+# Primary Instruction
+
+Transfer ONLY:
+
+- Equipped Props
+
+Replicate the equipped props from the Reference Image as accurately as possible.
+
+Equipped props are non-wearable objects that are attached to, supported by, or carried on the character's body, but are not handheld and are not part of the wearable wardrobe.
+
+Examples include:
+
+- Backpack
+- Hiking backpack
+- Handbag worn on the shoulder
+- Messenger bag
+- Camera bag
+- Guitar on the back
+- Oxygen tank
+- Scuba tank
+- Parachute
+- Quiver
+- Baby carrier
+- Medical equipment
+- Tool belt equipment
+- Tactical equipment
+- Other externally attached equipment
+
+Match the reference faithfully.
+
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
+
+---
+
+# Secondary Instruction
+
+Preserve all unrelated visual attributes from the Base Image.
+
+---
+
+# Stage-specific Restrictions
+
+- Do not transfer facial identity, hairstyle, facial expression, body characteristics, wearable wardrobe, overall pose, environment, camera, lighting, or rendering style from the Reference Image.
+- Preserve the established character identity, canonical body, wearable wardrobe, overall pose, environment, camera, lighting, and rendering style from the Base Image.
+- Transfer only the equipped prop(s).
+- Do not intentionally transfer the overall pose or gesture from the Reference Image.
+- Generate only the minimum necessary strap placement, attachment, clothing deformation, hair adjustment, or body contact required to naturally support the transferred equipped prop(s).
+- Maintain realistic object scale, attachment, suspension, weight, contact, and physical interaction.
+- Do not introduce equipped props that are not present in the Reference Image.
+
+---
+
+# Output Constraint
+
+The output should appear identical to the Base Image, with only the equipped prop(s) transferred from the Reference Image.
+
+Apply only the minimum necessary modifications required to complete the requested edit.
+
+Generate a natural, visually coherent, and anatomically consistent result.

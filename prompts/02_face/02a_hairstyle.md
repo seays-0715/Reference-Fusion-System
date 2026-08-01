@@ -4,101 +4,60 @@
 
 # Goal
 
-Modify the character's hairstyle while preserving the canonical identity.
+Edit Image 1 by changing ONLY the specified visual attribute.
 
 ---
 
-# Reference Assignment
+# Image Assignment
 
-### Image 1
+Image 1
 
-Role:
 Current Character
 
-### Image 2
+Image 2
 
-Role:
 Hairstyle Reference
 
 ---
 
-# Stage Responsibility
+# Primary Instruction
 
-Modify only the hairstyle.
+Modify ONLY:
 
-All other attributes must remain unchanged.
+* Hairstyle
 
----
 
-# Task
 
-Apply the hairstyle from Image 2 to Image 1.
+Replicate the hairstyle from Image 2 as accurately as possible, including hair length, hair volume, hair flow, hair parting, bangs, curls or straightness, updos (ponytail/braid/bun), hair texture, and hair color.
 
-Synchronize only the following hairstyle attributes:
-
-- hairstyle
-- hair length
-- hair volume
-- hair flow
-- hair parting
-- bangs
-- curls or straightness
-- ponytail / braid / bun (if applicable)
-- hair texture
-- hair color (if clearly defined)
-
-Adapt the hairstyle naturally to the head shape of Image 1 while preserving the character's canonical identity.
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Preserve
+# Secondary Instruction
 
-Preserve all other attributes from Image 1, including:
-
-- facial identity
-- facial structure
-- apparent age
-- skin tone
-- body
-- body proportions
-- pose
-- clothing
-- accessories
-- camera
-- composition
-- lighting
-- background
-- artistic style
+Preserve all unrelated visual attributes from Image 1.
 
 ---
 
-# Restrictions
+# Stage-specific Restrictions
 
-Do NOT:
+* Do not copy facial identity, facial structure, clothing, body, pose, environment, camera angle, lighting, or art style from Image 2.
 
-- create a different person
-- modify facial structure
-- alter facial proportions
-- redesign the body
-- change pose
-- change clothing
-- introduce unnecessary accessories
-- modify the environment
+
+* Adapt the hairstyle naturally to the head shape and hairline of Image 1 while preserving the canonical character identity.
+
+
+* Preserve facial identity, facial structure, apparent age, skin tone, body, proportions, pose, clothing, accessories, camera, composition, lighting, background, and art style from Image 1.
+
+
 
 ---
 
-# Output
+# Output Constraint
 
-Asset Name:
-Hairstyle_Master_v1
+The output should look identical to Image 1, with only the specified attribute(s) changed.
 
-Purpose:
-Apply the hairstyle reference while preserving the canonical identity.
+Apply only the minimum necessary modifications required to complete the requested edit.
 
-Generate a high-resolution photorealistic image with:
-
-- high identity consistency
-- accurate hairstyle reproduction
-- natural hair integration
-- realistic hair texture
-- seamless transition around the hairline
+Generate a natural, visually coherent, and anatomically consistent result.

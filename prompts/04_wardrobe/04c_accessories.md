@@ -4,29 +4,31 @@
 
 # Goal
 
-Synchronize the character's wearable accessories from the assigned accessory reference while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, clothing, and footwear.
-
-The output should refine the existing Character Wardrobe by updating accessories only.
+Edit Image 1 by changing ONLY the character's wearable accessories.
 
 ---
 
-# Reference Assignment
+# Image Assignment
 
-Image 1:
+Image 1
 
-Role:
 Current Character
 
-Image 2:
+Image 2
 
-Role:
 Accessory Reference
 
 ---
 
-# Stage Responsibility
+# Primary Instruction
 
-Modify ONLY the character's wearable accessories, including:
+Modify ONLY:
+
+- Wearable Accessories
+
+Replicate the wearable accessories from Image 2 as accurately as possible.
+
+This includes:
 
 - Eyeglasses
 - Sunglasses
@@ -43,113 +45,34 @@ Modify ONLY the character's wearable accessories, including:
 - Rings
 - Brooches
 - Belts
-- Bags
-- Backpacks
-- Scarves
 - Gloves
-- Other wearable accessories
+- Scarves
+- Other permanently worn or attached accessories
 
-Do NOT intentionally modify clothing, footwear, body characteristics, or any other visual attributes.
-
----
-
-# Task
-
-Transfer the wearable accessories from Image 2 onto the character in Image 1.
-
-Synchronize all accessories while preserving the established character identity, facial appearance, canonical body, body shape, skeletal framework, clothing, and footwear.
-
-The transferred accessories should naturally integrate with the established wardrobe without altering anatomy, clothing, or body proportions.
-
-This stage defines only the character's wearable accessories and must not modify clothing, footwear, pose, scene, camera, lighting, or rendering style.
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Preserve
+# Secondary Instruction
 
-Preserve all previously established character attributes from Image 1, including:
-
-- Character identity
-- Facial identity
-- Facial structure
-- Eyes
-- Nose
-- Mouth
-- Eyebrows
-- Skin tone
-- Hair
-- Hairstyle
-- Hair color
-- Facial expression
-- Age appearance
-- Ethnicity
-
-Preserve the established body, including:
-
-- Canonical body
-- Skeletal framework
-- Head-to-body ratio
-- Height
-- Overall body proportions
-- Physique
-- Body build
-- Body silhouette
-- Body fat distribution
-- Muscle definition
-- Bust
-- Waist
-- Hip
-- Limb proportions
-- Localized body refinements
-
-Preserve existing wardrobe assets, including:
-
-- Clothing
-- Footwear
-- Socks
-- Stockings
-- Pantyhose
-
-Do not modify:
-
-- Pose
-- Gesture
-- Camera angle
-- Perspective
-- Composition
-- Background
-- Environment
-- Props
-- Lighting
-- Rendering style
-- Image quality
+Preserve all unrelated visual attributes from Image 1.
 
 ---
 
-# Restrictions
+# Stage-specific Restrictions
 
-- Transfer only wearable accessories from the accessory reference.
-- Do not modify any body characteristics to fit the accessories.
-- Adapt the accessories naturally to the established body and wardrobe.
-- Do not copy clothing from the reference.
-- Do not copy footwear from the reference.
-- Do not copy pose from the reference.
-- Do not copy camera composition from the reference.
-- Do not copy background or environment from the reference.
-- Do not alter facial identity.
-- Preserve realistic accessory placement, attachment, and layering.
-- Maintain natural interaction between accessories, clothing, hairstyle, and the body.
+- Do not copy facial identity, body proportions, clothing, footwear, pose, gesture, environment, camera angle, lighting, or rendering style from Image 2.
+- Preserve character identity, facial appearance, hair, expression, and canonical body from Image 1.
+- Preserve the existing pose, gesture, environment, camera angle, lighting, and rendering style.
+- Do not copy handheld props, carried objects, tools, weapons, bags, backpacks, furniture, vehicles, companion objects, or any other non-wearable items from Image 2.
+- Adapt the wearable accessories naturally to the character's body, hair, and wardrobe while maintaining realistic attachment, placement, layering, and interaction.
 
 ---
 
-# Output
+# Output Constraint
 
-Asset Name:
+The output should look identical to Image 1, with only the wearable accessories changed.
 
-04c Accessories
+Apply only the minimum necessary modifications required to complete the requested edit.
 
-Purpose:
-
-Defines the character's reusable accessory asset by synchronizing wearable accessories while preserving the established Character Canon and other wardrobe assets.
-
-This asset contains wearable accessories only and remains independent of clothing, footwear, pose, environment, camera, lighting, and rendering style.
+Generate a natural, visually coherent, and anatomically consistent result.

@@ -4,103 +4,63 @@
 
 # Goal
 
-Synchronize the facial identity of the current character with the canonical Portrait Master.
+Edit Image 1 by changing ONLY the specified visual attribute.
 
 ---
 
-# Reference Assignment
+# Image Assignment
 
-### Image 1
+Image 1
 
-Role:
 Current Character
 
-### Image 2
+Image 2
 
-Role:
-Master_Identity_Portrait_v1 (Canonical Facial Identity Reference)
-
----
-
-# Stage Responsibility
-
-Modify only the facial identity.
-
-All other attributes must remain unchanged.
+Facial Reference
 
 ---
 
-# Task
+# Primary Instruction
 
-Synchronize Image 1 to the canonical facial identity defined by Image 2.
+Modify ONLY:
 
-Restore the following attributes from Image 2:
+* Facial Identity
 
-- facial identity
-- face shape
-- facial proportions
-- eye shape
-- eyebrow shape
-- nose structure
-- lip shape
-- jawline
-- hairstyle
-- hairline
-- hair color
-- skin tone
-- apparent age
 
-Generate a seamless result that preserves the original visual quality and naturally integrates the synchronized face into Image 1.
+
+Replicate the canonical facial identity from Image 2 as accurately as possible, including face shape, facial proportions, eye shape, eyebrow shape, nose structure, lip shape, jawline, hairstyle, hairline, hair color, skin tone, and apparent age.
+
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Preserve
+# Secondary Instruction
 
-Preserve all non-facial attributes from Image 1, including:
-
-- body
-- body proportions
-- pose
-- clothing
-- accessories
-- hands
-- legs
-- camera angle
-- framing
-- composition
-- lighting
-- shadows
-- background
-- environment
-- artistic style
+Preserve all unrelated visual attributes from Image 1.
 
 ---
 
-# Restrictions
+# Stage-specific Restrictions
 
-Do NOT:
+* Do not copy body, clothing, accessories, pose, environment, camera angle, lighting, or art style from Image 2.
 
-- create a different person
-- blend multiple identities
-- redesign facial anatomy
-- alter facial proportions
-- modify facial expression unless required for natural identity synchronization
-- introduce stylized artistic effects
+
+* Do not create a different person, blend multiple identities, or alter facial structure beyond natural identity synchronization.
+
+
+* Preserve body, body proportions, pose, clothing, accessories, hands, legs, framing, composition, lighting, shadows, background, and artistic style from Image 1.
+
+
+* Generate a seamless result with high facial identity consistency and natural skin texture integrated into Image 1.
+
+
 
 ---
 
-# Output
+# Output Constraint
 
-Asset Name:
-Face_Sync_v1
+The output should look identical to Image 1, with only the specified attribute(s) changed.
 
-Purpose:
-Canonical facial identity synchronized to the Portrait Master while preserving all other visual attributes from Image 1.
+Apply only the minimum necessary modifications required to complete the requested edit.
 
-Generate a high-resolution photorealistic image with:
-
-- high facial identity consistency
-- natural skin texture
-- seamless face-to-body integration
-- preserved scene composition
-- preserved visual style
+Generate a natural, visually coherent, and anatomically consistent result.

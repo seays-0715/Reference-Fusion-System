@@ -4,56 +4,62 @@
 
 # Goal
 
-Describe the intended outcome of this stage.
+Edit the Base Image by transferring ONLY the specified visual attribute from the Reference Image.
 
 ---
 
-# Reference Assignment
+# Image Roles
 
-Image 1:
-...
+## Base Image
 
-Role:
-...
+Image 1
 
-Image 2:
-...
+The image to edit.
 
-Role:
-...
+Preserve this image as the foundation of the final result.
 
 ---
 
-# Stage Responsibility
+## Reference Image
 
-Describe the single attribute this stage is allowed to modify.
+Image 2
 
-All other attributes must remain unchanged.
+Use ONLY as the reference for the specified visual attribute.
 
----
-
-# Task
-
-Describe exactly what should be generated or synchronized.
+Do not copy unrelated visual information from this image.
 
 ---
 
-# Preserve
+# Primary Instruction
 
-List all attributes that must remain unchanged from Image 1.
+Transfer ONLY:
+
+- <Editable Attribute(s)>
+
+Replicate the corresponding attribute(s) from the Reference Image as accurately as possible.
+
+Match the reference faithfully.
+
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Restrictions
+# Secondary Instruction
 
-List only stage-specific prohibitions that are not already covered by Preserve.
+Preserve all unrelated visual attributes from the Base Image.
 
 ---
 
-# Output
+# Stage-specific Restrictions
 
-Asset Name:
+- <Restrictions unique to this stage only>
 
-Purpose:
+---
 
-Describe the expected output.
+# Output Constraint
+
+The output should appear identical to the Base Image, with only the specified attribute(s) transferred from the Reference Image.
+
+Apply only the minimum necessary modifications required to complete the requested edit.
+
+Generate a natural, visually coherent, and anatomically consistent result.

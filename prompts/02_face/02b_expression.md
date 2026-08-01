@@ -4,104 +4,60 @@
 
 # Goal
 
-Transfer the facial expression from the reference image while preserving the canonical identity.
+Edit Image 1 by changing ONLY the specified visual attribute.
 
 ---
 
-# Reference Assignment
+# Image Assignment
 
-### Image 1
+Image 1
 
-Role:
 Current Character
 
-### Image 2
+Image 2
 
-Role:
 Expression Reference
 
 ---
 
-# Stage Responsibility
+# Primary Instruction
 
-Modify only the facial expression.
+Modify ONLY:
 
-All other attributes must remain unchanged.
+* Facial Expression
 
----
 
-# Task
 
-Transfer the facial expression from Image 2 to Image 1.
+Replicate the facial expression from Image 2 as accurately as possible, including eye openness, eye direction, eyebrow expression, eyelid position, mouth shape, lip openness, smile intensity, cheek tension, facial muscle tension, and overall emotional expression.
 
-Synchronize only the following expression attributes:
-
-- eye openness
-- eye direction
-- eyebrow expression
-- eyelid position
-- mouth shape
-- lip openness
-- smile intensity
-- cheek tension
-- facial muscle tension
-- overall emotional expression
-
-Adapt the expression naturally to the facial anatomy of Image 1 while preserving the canonical identity.
+Do not reinterpret, redesign, stylize, or approximate the reference unless explicitly requested.
 
 ---
 
-# Preserve
+# Secondary Instruction
 
-Preserve all other attributes from Image 1, including:
-
-- facial identity
-- facial structure
-- hairstyle
-- hair color
-- skin tone
-- apparent age
-- body
-- body proportions
-- pose
-- clothing
-- accessories
-- camera
-- composition
-- lighting
-- background
-- artistic style
+Preserve all unrelated visual attributes from Image 1.
 
 ---
 
-# Restrictions
+# Stage-specific Restrictions
 
-Do NOT:
+* Do not copy facial identity, facial structure, hairstyle, clothing, body, pose, environment, camera angle, lighting, or art style from Image 2.
 
-- create a different person
-- modify facial structure
-- alter facial proportions
-- redesign the hairstyle
-- change body proportions
-- modify pose
-- modify clothing
-- modify the environment
+
+* Adapt the expression naturally to the facial anatomy of Image 1 while preserving the canonical character identity.
+
+
+* Preserve facial identity, facial structure, hairstyle, hair color, skin tone, apparent age, body, pose, clothing, accessories, camera, composition, lighting, background, and art style from Image 1.
+
+
 
 ---
 
-# Output
+# Output Constraint
 
-Asset Name:
-Expression_Master_v1
+The output should look identical to Image 1, with only the specified attribute(s) changed.
 
-Purpose:
-Transfer the facial expression while preserving the canonical identity.
+Apply only the minimum necessary modifications required to complete the requested edit.
 
-Generate a high-resolution photorealistic image with:
-
-- high identity consistency
-- accurate expression transfer
-- natural facial muscle movement
-- seamless expression integration
-- preserved scene composition
-- preserved visual style
+Generate a natural, visually coherent, and anatomically consistent result.
